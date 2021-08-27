@@ -5,6 +5,7 @@
     src: url("../_fonts/bubblegum-sans-regular.otf");
 }
 body {
+    font-family: Arial,sans-serif;
     background-color:#dddddd;
     color: rgba(0,0,0,1);
 }
@@ -18,6 +19,10 @@ div#interface {
 p {
     text-align: justify;
     text-indent: 50px;
+}
+a {
+    color: #606060;
+    text-decoration: none;
 }
 header#cabecalho {
     border-bottom: 1px #606060 solid;
@@ -117,6 +122,35 @@ section#esqueleto {
     border-right: 1px solid #606060;
     padding-right: 15px;
 }
+article#noticia-principal h2 {
+    font-size: 12pt;
+    color: #606060;
+    background-color: #dddddd;
+    padding: 5px 0px 5px 10px;
+    margin: 10px 0px 10px 0px;
+}
+header#cabecalho-artigo h1 {
+ font-family: "Fonte Logo",sans-serif;
+    font-size: 20pt;
+    color: #606060;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+header#cabecalho-artigo h2 {
+ font-size: 13pt;
+    color: #cecece;
+    background-color: #ffffff;
+    margin: 0px;
+}
+
+header#cabecalho-artigo h3 {
+font-size: 15pt;
+    color: #606060;
+}
+.direita {
+    text-align: right;
+}
 table#tabelaspec {
     border: 0px solid #606060;
     border-spacing: 0px;
@@ -138,14 +172,14 @@ table#tabelaspec td.cd {
     background-color: #cecece;
 }
 table#tabelaspec caption {
-    color: #dddddd;
+    color: #606060;
     font-size: 13pt;
     font-weight: bolder;
 }
 table#tabelaspec caption span {
     display:block;
     float: right;
-    color: #dddddd;
+    color: #888888;
     font-size: 8pt;
     margin-top: 11px ;
 }
