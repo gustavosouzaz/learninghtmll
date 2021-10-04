@@ -9,7 +9,7 @@ body {
     background-color:#dddddd;
     color: rgba(0,0,0,1);
 }
-div#interface {
+div#interface { 
     width: 900px;
     background-color: white;
     margin: -20px auto 0px auto;
